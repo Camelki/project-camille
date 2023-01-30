@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    background:  #2f2e2e;
+}
+
+
+header {
+    height: 60px;
+    display: flex;
+}
+
+.bg-dark {
+    background-color: #2f2e2e !important;
+}
+
+header nav .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .links a {
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition-duration: 800ms;
+}
+
+header nav .links a:hover {
+    background: linear-gradient(to bottom left, yellow 50%, red 50%);
+    color: #2f2e2e;
+    transform: scale(1.05);
+}
+
+header nav .burger {
+    display: none;
+}
+
+header nav img {
+    width: 60px;
+    height: 60px;
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {}
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    header nav .links {
+        width: 80%;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    header nav {
+        max-width: 100% !important;
+    }
+    header nav .links {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        background: #2f2e2e;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        text-align: center;
+    }
+    header nav .links a {
+        padding: 14px 0;
+        border-radius: 0;
+        border-top: 1px solid azure;
+    }
+    header nav .links a:hover {
+        transform: scale(1.2);
+    }
+    header nav .burger {
+        display: block;
+        color: azure;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}

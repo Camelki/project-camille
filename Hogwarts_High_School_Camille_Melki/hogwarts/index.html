@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts High School</title>
+    
+       <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+       <!-- End Bootstrap -->
+
+       <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <!-- End Font Awesome -->
+
+       <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <!-- End AOS -->
+
+        <!-- Link Fonts Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+       <!-- End Fonts Google -->
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="dropdown help position-fixed z-1">
+    <p class="posP dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        :)
+    </p>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="contact.html">Contact us here !</a></li>
+        <li><a class="dropdown-item" href="about.html">Have more questions ?</a></li>
+        <li><a class="dropdown-item" href="quiz.html">Quiz</a></li>
+    </ul>
+</div>
+
+    <!-- Site header -->
+
+    <header class=" fixed-top opacity-100  ">
+        <nav class="container ">
+            <div id="id_nav_show_hide" class="links">
+             <a href="index.html"> <img src="./burger/poudlardLogo.png" alt=""></a>  
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="support.html">Support</a>
+                <a href="index.html"> <img src="./burger/poudlardLogo.png" alt=""></a>
+            </div>
+            <i id="burger_btn" class="fa fa-bars burger" aria-hidden="true"></i>
+        </nav>
+    </header>
+
+    <!-- End header -->
+
+<!-- Carousel -->
+    <div class="container">
+        <div class="row m-0 p-0">
+            <div class="col-md-12 bg-black p-0">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div style="background-image: url(./burger/poudlardchateau1.jpg);" class="carousel-item active">
+
+                            <div class="carousel-caption hero-title hero-text mt-5s">
+                                <h2>Welcome to Hogwarts High School</h2>
+                                <p>LOYALTY</p>
+                            </div>
+                        </div>
+                        <div style="background-image: url(./burger/poudlardchateau2.jpg);" class="carousel-item">
+
+                            <div class="carousel-caption hero-title hero-text mt-5">
+                                <h2>Welcome to Hogwarts High School</h2>
+                                <p>BRAVERY</p>
+                            </div>
+                        </div>
+                        <div style="background-image: url(./burger/poudlardchateau3.jpg);" class="carousel-item">
+
+                            <div class="carousel-caption d-none d-md-block background-opc hero-title hero-text mt-5">
+                                <h2>Welcome to Hogwarts High School</h2>
+                                <p>HONOR</p>
+                            </div>
+                        </div>
+                        <div style="background-image: url(./burger/baguette.jpg);" class="carousel-item">
+
+                          <div class="carousel-caption d-none d-md-block background-opc hero-title hero-text mt-5">
+                              <h2>Welcome to Hogwarts High School</h2>
+                              <p>AMBITION</p>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+<!-- End Carousel -->
+            
+<!-- Main go Gallery -->
+
+            <main>
+                
+                <div class="row row-cols-1 row-cols-md-4 g-4 p-5 justify-content-center">
+                    <div class="col">
+                      <div class="card h-100 bg-black text-white">
+                        <div data-aos="fade-up" data-aos-duration="2500"
+                        data-aos-anchor-placement="center-bottom">
+                        <img width="100%" height="100%" src="./burger/potions.jpg" class="card-img-top" alt="potions">
+                        <div class="card-body">
+                          <h5 class="card-title">Potion</h5>
+                          <p class="card-text font-">In this class, students learnt the correct way to brew potions. They followed specific recipes and used various magical ingredients to create potions, starting with simple ones and moving to more advanced ones as they progressed in knowledge.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://www.youtube.com/watch?v=uc6-2z4e9oA">Click here</a></small>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 bg-black text-white">
+                        <img width="100%" height="100%" src="./burger/dragon.jpg" class="card-img-top" alt="dragons">
+                        <div class="card-body">
+                          <h5 class="card-title">Care of Magical Creatures</h5>
+                          <p class="card-text">In the class, students learnt about a wide range of magical creatures, from flobberworms, hippogriffs, unicorns and even thestrals.Students were taught about feeding, maintaining, breeding, and proper treatment.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://www.youtube.com/watch?v=71xBu_VHTfY">Click here</a></small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 bg-black text-white">
+                        <div data-aos="fade-up" data-aos-duration="2500"
+                        data-aos-anchor-placement="center-bottom">
+                        <img  width="100%" height="100%" src="./burger/ForceMal.jpg" class="card-img-top" alt="force">
+                        <div class="card-body">
+                          <h5 class="card-title">Defence Against the Dark Arts</h5>
+                          <p class="card-text">In this class, students studied and learnt how to defend themselves against all aspects of the Dark Arts, including dark creatures,curses, hexes and jinxes (dark charms), and duelling. The class was a core subject at Hogwarts.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://www.youtube.com/watch?v=3PWKFyhJ2h4&t=63s">Click here</a></small>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="toast-container position-static">
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small class="text-muted">just now</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+              
+                    </div>
+                  
+                    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                      <div class="toast-header">
+                        <img width="100%" height="100%" src="./burger/sorcier.jpg" class="rounded me-2" alt="sorcier">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small class="text-muted">2 seconds ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+            <!-- End  Main go Gallery -->
+
+            <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Camille
+           <a href="#"></a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/HPHogwartsMystery/"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="https://twitter.com/hogwartsmystery?lang=en"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="https://www.hogwartslegacy.com/fr-fr"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/company/hogwarts-testing/"><i class="fa fa-linkedin"></i></a></li>   
+             
+            </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+  <!--End footer -->
+                                                   
+                       
+  
+
+  <!-- Script Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!-- End Bootstrap-->
+
+  <!-- Script JS-->
+  <script src="./burger/burger.js"></script>
+  <!-- End JS-->
+
+    <!-- AOS ANIMATION -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- AOS ANIMATION -->
+
+</body>
+
+</html>
